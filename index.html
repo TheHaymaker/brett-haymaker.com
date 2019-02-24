@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+
+
+
+Want to check out some of my work?
+
+Try: _new_england_clam_chowder_
+
+
+
+
+  -->
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- SEO jawn -->
+  <title>Haymaker Design | Web Development</title>
+  <meta name="description" content="Haymaker Design offers full-stack web development services for small- to medium-sized businesses, agencies, artists, writers or anyone looking for a unique web experience.">
+  <meta name="robots" content="noodp">
+  <link rel="canonical" href="https://brett-haymaker.com">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Haymaker Design">
+  <meta property="og:description" content="Haymaker Design offers full-stack web development services for small- to medium-sized businesses, agencies, artists, writers or anyone looking for a unique web experience.">
+  <meta property="og:url" content="https://brett-haymaker.com">
+  <meta property="og:site_name" content="Haymaker Design">
+  <meta property="og:image" content="https://brett-haymaker.com/assets/laser.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="Haymaker Design offers full-stack web development services for small- to medium-sized businesses, agencies, artists, writers or anyone looking for a unique web experience.">
+  <meta name="twitter:title" content="Haymaker Design">
+  <meta name="twitter:site" content="@BrettHaymaker">
+  <meta name="twitter:image" content="https://brett-haymaker.com/assets/laser.jpg">
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","url":"https:\/\/brett-haymaker.com\/","name":"Haymaker Design","alternateName":"Haymaker Design","potentialAction":{"@type":"SearchAction","target":"https:\/\/brett-haymaker.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/brett-haymaker.com","name":"Haymaker","logo":"https:\/\/brett-haymaker.com/assets/ticks.jpg"}</script>
+  <!-- End SEO jawn -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/skeleton.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/keyframes.min.css">
+</head>
+<body>
+  <div class="color-selector intro">
+    <div class="color-container">
+      <div class="dot yellow-dot"></div>
+      <div class="dot bluepurple-dot"></div>
+      <div class="dot white-dot"></div>
+      <div class="dot blue-dot"></div>
+    </div>
+  </div>
+  <style type="text/css">
+    nav {
+      background-color: transparent;
+      width: 100%;
+      border: 8px solid white;
+      position: relative;
+      height: 40px;
+      /*border: 5px solid black;*/
+      box-sizing: border-box;
+      background-image: url(assets/ticks.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: 0.8s transform cubic-bezier(0.82, 0.07, 0.38, 1.04), 0.5s height cubic-bezier(0.82, 0.07, 0.38, 1.04), 0.5s width cubic-bezier(0.82, 0.07, 0.38, 1.04), 0.5s top cubic-bezier(0.82, 0.07, 0.38, 1.04);
+      transition: 0.8s transform cubic-bezier(0.82, 0.07, 0.38, 1.04), 0.5s height cubic-bezier(0.82, 0.07, 0.38, 1.04), 0.5s width cubic-bezier(0.82, 0.07, 0.38, 1.04), 0.5s top cubic-bezier(0.82, 0.07, 0.38, 1.04);
+      top: 0px;
+      z-index: 999;
+      background-attachment: fixed;
+    }
+
+    nav.entrance {
+      height: 40px;
+      -webkit-transform: translate(0px, -500px);
+         -moz-transform: translate(0px, -500px);
+          -ms-transform: translate(0px, -500px);
+           -o-transform: translate(0px, -500px);
+              transform: translate(0px, -500px);
+    }
+
+    nav.shrink-nav {
+      height: 40px;
+    }
+
+    nav.expand-nav {
+      height: 200px;
+    }
+
+  </style>
+  <div class="hidden">
+</div>
+<!-- <div class="weirdo">
+  stay weird
+</div> -->
+  <nav class="entrance expand-nav">
+    <div class="beach-about"></div>
+    <div class="beach-work"></div>
+    <div class="beach-contact"></div>
+    <div class="icon intro">
+      <div class="brett intro">
+        <img src="assets/Brett.svg" alt="">
+      </div>
+      <ul>
+        <li class="one-square"><p>h</p></li>
+        <li class="two-square"><p>a</p></li>
+        <li class="three-square"><p>y</p></li>
+        <li class="four-square"><p>m</p></li>
+        <li class="five-square"><p>a</p></li>
+        <li class="six-square"><p>k</p></li>
+        <li class="seven-square"><p>e</p></li>
+        <li class="eight-square"><p>r</p></li>
+        <li class="nine-square"><p>.</p></li>
+        <li class="design"><p>design</p></li>
+      </ul>
+    </div>
+    <div class="about shift">
+      <p>about</p>
+    </div>
+    <div class="work shift">
+      <p>work</p>
+    </div>
+    <div class="contact shift">
+      <p>contact</p>
+    </div>
+  </nav>
+  <div class="timeline-container">
+    <h1 class="timeline-title inverse-single">timeline / history</h1>
+    <div class="line">
+      <div class="cap"></div>
+      <div class="cap-2"></div>
+      <div class="cap-bottom"></div>
+      <div class="cap-2-bottom"></div>
+
+      <div class="attach attach-1">
+        <div class="node">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event">
+            <div class="event-photo"></div>
+            <span class="date">March 20, 2016</span>
+            <p>Scientists agree Earth is on track to exceed the 1.5&deg;C global warming threshold -- the point of no return.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="attach attach-2">
+        <div class="node node-right">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event event-right">
+            <div class="event-photo"></div>
+            <span class="date">March 16, 2015</span>
+            <p>I graduated from General  Assembly's Web Development Immersive program and began earning my web dev stripes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="attach attach-3">
+        <div class="node">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event">
+            <div class="event-photo"></div>
+            <span class="date">June, 2013</span>
+            <p>I completed my MFA in Poetry with honors from Drew University.</p>
+          </div>
+        </div>
+      </div>
+      <div class="attach attach-4">
+        <div class="node node-right">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event event-right">
+            <div class="event-photo"></div>
+            <span class="date">October, 2010</span>
+            <p>I moved to Chicago from the East Coast.</p>
+          </div>
+        </div>
+      </div>
+      <div class="attach attach-5">
+        <div class="node">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event">
+            <div class="event-photo"></div>
+            <span class="date">February, 2006</span>
+            <p>Pluto is downgraded to "dwarf-planet" status - 8-year-old kids everywhere throw up their hands in frustration.</p>
+          </div>
+        </div>
+      </div>
+      <div class="attach attach-6">
+        <div class="node node-right">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event event-right">
+            <div class="event-photo"></div>
+            <span class="date">November 21, 1985</span>
+            <p>This guy (yours truly) came dancing out of the womb.</p>
+          </div>
+        </div>
+      </div>
+      <div class="attach attach-7">
+        <div class="node">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event">
+            <div class="event-photo"></div>
+            <span class="date">February 18, 1930</span>
+            <p>Pluto was discovered and was classified as a planet.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="attach attach-8">
+        <div class="node node-right">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event event-right">
+            <div class="event-photo"></div>
+            <span class="date">1300 - 1870</span>
+            <p>A "mini ice age" took place due to lowered solar activity.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="attach attach-9">
+        <div class="node">
+          <div class="track">
+            <div class="text-box"></div>
+          </div>
+          <div class="event">
+            <div class="event-photo"></div>
+            <span class="date">180 million years ago</span>
+            <p>The Mesozoic Era: When dinosaurs walked the earth and listened to music on their Sony Walkman.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="about" class="section about_section">
+    <div class="container">
+      <div class="row">
+        <div class="four columns">
+          <div class="spacer"></div>
+        </div>
+        <div class="four columns">
+          <div class=" u-full-width">
+            <div class="about-photo"></div>
+            <p class="subhead inverse-single">brett haymaker</p>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="spacer"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="text-align:center;" class="twelve columns">
+          <span style="margin: 10px">
+            <a target="_blank" href="https://github.com/TheHaymaker"><i class="fa fa-github fa-3x"></i></a>
+          </span>
+          <span style="margin: 10px">
+            <a target="_blank" href="https://twitter.com/BrettHaymaker"><i class="fa fa-twitter fa-3x"></i></a>
+          </span>
+          <span style="margin: 10px">
+            <a target="_blank" href="https://www.linkedin.com/in/bretthaymaker"><i class="fa fa-linkedin fa-3x"></i></a>
+          </span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <p class="subhead inverse-single">skills</p>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="twelve columns">
+          <div class="divider-spots">
+            <div class="dot-one"></div>
+            <div class="dot-two"></div>
+            <div class="dot-three"></div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row">
+        <div class="four columns border-col">
+          <ul class="inverse-single">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript + jquery</li>
+            <li>object oriented vs. functional programming principles</li>
+            <li>command line</li>
+            <li>git</li>
+          </ul>
+        </div>
+        <div class="four columns border-col">
+          <ul class="inverse-single">
+            <li>mvc/rest api principles</li>
+            <li>ui components</li>
+            <li>responsive dev / grid layouts:
+              <ul class="inverse-single">
+                <li>bootstrap</li>
+                <li>skeleton</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="four columns border-col">
+          <ul class="inverse-single">
+            <li>ruby</li>
+            <li>rails</li>
+            <li>wordpress</li>
+            <li>custom wp theme development</li>
+            <li>php</li>
+            <li>d3.js</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="twelve columns">
+          <p class="subhead inverse-single">experience</p>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="twelve columns">
+          <div class="divider-spots">
+            <div class="dot-one"></div>
+            <div class="dot-two"></div>
+            <div class="dot-three"></div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="u-full-width">
+            <li class="border-exp inverse-single"><h3>c|change inc</h3>
+              <ul>
+                <li>web developer <span class="current-job">current</span></li>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="u-full-width">
+            <li class="border-exp inverse-single"><h3>Northwestern University's School of Professional Studies</h3>
+              <ul>
+                <li>teaching assistant / instructor <span class="current-job">current</span></li>
+                  <ul>
+                    <li>six month code bootcamp</li>
+                    <li>MERN stack: MongoDB, Express, React.js, Node</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="u-full-width">
+            <li class="border-exp inverse-single"><h3>General Assembly</h3>
+              <ul>
+                <li>part-time course &amp; workshop instructor <span class="current-job">current</span>
+                <li>web development immersive mentor</li>
+                  <ul>
+                    <li>web development: how to transition careers - panel discussion</li>
+                    <li>break into web development: panel discussion</li>
+                    <li>javascript 101</li>
+                    <li>intro to coding: html and css</li>
+                    <li>code in one day: html and css crash course</li>
+                    <li>build a website with wordpress: 2-day workshop</li>
+                    <li>getting started with wordpress</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="u-full-width">
+            <li class="border-exp inverse-single"><h3>agencyEA, LLC</h3>
+              <ul>
+                <li>front end web developer</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="twelve columns">
+          <p class="inverse-single subhead">education</p>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="twelve columns">
+          <div class="divider-spots">
+            <div class="dot-one"></div>
+            <div class="dot-two"></div>
+            <div class="dot-three"></div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="u-full-width">
+            <li class="inverse-single border-exp"><h3>General Assembly's Web Development Immersive (WDI) program</h3>
+              <ul class="inverse">
+                <li>12 week, full-time polyglot program</li>
+                <li>chicago, il</li>
+                <li>june 15, 2015</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="u-full-width">
+            <li class="inverse-single border-exp"><h3>M.F.A Creative Writing / Poetry <span class="current-job">with honors</span></h3>
+              <ul class="inverse">
+                <li>drew university</li>
+                <li>madison, nj</li>
+                <li>june, 2013</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="u-full-width">
+            <li class="inverse-single border-exp"><h3>B.A. English Literature<span class="current-job">with honors</span></h3>
+              <ul class="inverse">
+                <li>drexel university</li>
+                <li>philadelphia, pa</li>
+                <li>june, 2009</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div id="work" class="section work_section">
+    <div class="container">
+      <div class="row">
+        <h1 class="inverse-single" style="text-align: center">A sample of my work</h1>
+      </div>
+      <form class="password-form u-full-width">
+        <div class="row">
+          <div class="one columns" style="height: 1px"></div>
+          <div class="six columns">
+            <label class="inverse-single">what is the secret password?</label>
+            <input id="password" class="u-full-width" type="text" name="password" placeholder="hint: it is not 'new england clam chowder'">
+          </div>
+          <div class="four columns">
+            <button style="margin-top: 25px; padding-left: 20px; padding-right: 20px;" class="submit-password-button button-primary" type="submit">let's do this</button>
+          </div>
+          <div class="one columns" style="height: 1px"></div>
+        </div>
+      </form>
+      <div class="row">
+          <div class="u-full-width password-success-message"></div>
+        </div>
+      <div class="row">
+        <!-- <h1>This section will be released shortly.</h1> -->
+        <div class="four columns">
+          <div class="portfolio-example savage">
+            <a class="portfolio-link" target="_blank" href="https://savagesmyth.com/">
+            </a>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="portfolio-example intuit">
+            <a class="portfolio-link" target="_blank" href="https://quickbooksconnect.com/">
+            </a>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="portfolio-example notepad">
+            <a class="portfolio-link" target="_blank" href="https://brett-haymaker.com/notepad">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="four columns">
+          <div class="portfolio-example twittermap">
+            <a class="portfolio-link" target="_blank" href="https://github.com/TheHaymaker/TwitterMapApp">
+            </a>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="portfolio-example slot-machine">
+            <a class="portfolio-link" target="_blank" href="https://ameriprise-slot-machine.herokuapp.com/">
+            </a>
+          </div>
+        </div>
+        <div class="four columns">
+          <div class="portfolio-example riot">
+            <a class="portfolio-link" target="_blank" href="https://github.com/WDI-Woodstock-CharlieBrown/riotsOnRailsApp">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="section contact_section">
+    <div class="container">
+      <div class="row">
+        <h1 class="inverse-single">Contact Me</h1>
+        <p class="inverse-single">Send me a note below. I'd love to hear from you!</p>
+      </div>
+        <form id="contact-form" class="contact-form u-full-width">
+          <div class="row">
+            <div class="six columns">
+            <label class="inverse-single">First Name:</label>
+            <input id="firstname" class="u-full-width" type="text" name="firstname" placeholder="Marty">
+            </div>
+            <div class="six columns">
+              <label class="inverse-single">Last Name:</label>
+              <input id="lastname" class="u-full-width" type="text" name="lastname" placeholder="McFly">
+            </div>
+          </div>
+          <div class="row">
+            <div class="six columns">
+              <label class="inverse-single">Email:</label>
+              <input class="u-full-width" id="email" type="email" name="email" placeholder="back_to_the@future.com">
+            </div>
+            <div class="six columns">
+              <label class="inverse-single">Intention:</label>
+              <select class="contact_reason u-full-width">
+                 <option name="reason">You're interested in hiring me</option>
+                 <option name="reason">You'd like to see my portfolio and need the password</option>
+                 <option name="reason">You simply want to make an inquiry</option>
+                 <option name="reason">You would like to make a donation to my unborn children's trust fund</option>
+                 <option name="reason">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="twelve columns">
+              <label class="inverse-single">Message:</label>
+              <textarea class="u-full-width" style="resize: none" id="message"name="message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="eight columns">
+              <div class="u-full-width" style="height: 1px;"></div>
+            </div>
+            <div class="four columns">
+              <button class="submit-button button-primary u-full-width" type="submit">Send</button>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="u-full-width success-message"></div>
+        </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/app.min.js"></script>
+  <script type="text/javascript" src="scripts/form-action.js"></script>
+  <script src="https://use.fontawesome.com/4adcfbb924.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-96536574-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

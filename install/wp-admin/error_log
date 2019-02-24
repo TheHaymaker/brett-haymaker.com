@@ -1,0 +1,2 @@
+[23-Feb-2016 00:22:10 UTC] wizard_viewed
+[24-Feb-2016 23:46:34 UTC] PHP Warning:  include(): Failed opening '/home2/newtestc/public_html/install/wp-content/plugins/so-css/tpl/js-templates.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/newtestc/public_html/install/wp-content/plugins/so-css/so-css.php on line 217
