@@ -93,39 +93,62 @@ jQuery(document).ready(function() {
     } else if (lastname == "") {
       $(".success-message").html("<p>please enter your last name</p>");
     } else {
-      var that_data = {
-        firstname: firstname,
-        lastname: lastname,
-        email: email,
-        reason: reason,
-        message: message
-      };
+      // var that_data = {
+      //   firstname: firstname,
+      //   lastname: lastname,
+      //   email: email,
+      //   reason: reason,
+      //   message: message
+      // };
 
-      var serialized_data = $(that_data).serialize();
+      // var serialized_data = $(that_data).serialize();
 
-      $.ajax({
-        type: "POST",
-        url: $("#contact-form").attr("action"),
-        data: serialized_data,
-        success: function(data) {
-          $("input#firstname").val("");
-          $("input#lastname").val("");
-          $("input#email").val("");
-          $(".contact_reason").val("");
-          $("textarea#message").val("");
+      var $form = $("#contact-form");
+      $.post($form.attr("action"), $form.serialize()).then(function() {
+        //alert("Thank you!");
+        $("input#firstname").val("");
+        $("input#lastname").val("");
+        $("input#email").val("");
+        $(".contact_reason").val("");
+        $("textarea#message").val("");
 
-          $(".success-message").html("<p>Thanks! I will respond shortly.</p>");
-          setTimeout(function() {
-            $(".success-message p").css("opacity", "1");
-          }, 200);
-          setTimeout(function() {
-            $(".success-message p").css("opacity", "0");
-          }, 8000);
-          setTimeout(function() {
-            $(".success-message").html("");
-          }, 9000);
-        }
+        $(".success-message").html("<p>Thanks! I will respond shortly.</p>");
+        setTimeout(function() {
+          $(".success-message p").css("opacity", "1");
+        }, 200);
+        setTimeout(function() {
+          $(".success-message p").css("opacity", "0");
+        }, 8000);
+        setTimeout(function() {
+          $(".success-message").html("");
+        }, 9000);
       });
     }
+
+    //   $.ajax({
+    //     type: "POST",
+    //     url: $("#contact-form").attr("action"),
+    //     data: serialized_data,
+    //     success: function(data) {
+    //       $("input#firstname").val("");
+    //       $("input#lastname").val("");
+    //       $("input#email").val("");
+    //       $(".contact_reason").val("");
+    //       $("textarea#message").val("");
+
+    //       $(".success-message").html("<p>Thanks! I will respond shortly.</p>");
+    //       setTimeout(function() {
+    //         $(".success-message p").css("opacity", "1");
+    //       }, 200);
+    //       setTimeout(function() {
+    //         $(".success-message p").css("opacity", "0");
+    //       }, 8000);
+    //       setTimeout(function() {
+    //         $(".success-message").html("");
+    //       }, 9000);
+    //     }
+    //   });
+    // }
+    // });
   });
 });
